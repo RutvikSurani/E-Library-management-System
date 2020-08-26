@@ -1,0 +1,90 @@
+ .bg-text 
+   {
+      background-color: rgb(0,0,0); 
+      background-color: rgba(0.1,0,0, 0.57); 
+      color: black;
+      font-weight: bold;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 35%;
+      height:70%;
+      padding: 20px;
+    
+     box-shadow: 10px 10px 60px 7px black;
+ <!--    border: 3px solid rgb(7, 11, 14);-->
+
+  }
+  .bg-t 
+  {
+     background-color: rgb(0,0,0); 
+     background-color: rgba(0.1,0,0, 0.57); 
+     color: black;
+     font-weight: bold;
+     position: absolute;
+     top: 50%;
+     left: 0%;
+     transform: translate(-50%, -50%);
+     width: 35%;
+     height:70%;
+     padding: 20px;
+   
+    box-shadow: 10px 10px 60px 7px black;
+<!--    border: 3px solid rgb(7, 11, 14);-->
+
+ }
+    input
+	{
+		height:30;
+    width:300;
+    transition: 0.1s;
+    border-radius: 7px;
+    
+  }
+  input:focus
+	{
+    border:2px solid greenyellow;
+    border-radius: 5px;
+    width:320px;
+    box-shadow: 10px 10px 60px 9px black;
+
+  }
+  a{
+    color:skyblue;
+  }
+  a:hover
+  {
+    color:red;
+    background-color:white;
+    box-shadow: 6px 5px 30px 7px grey;
+
+  }
+  #t:hover
+  { 
+    width: 130px;
+    box-shadow: 5px 5px 30px 7px grey;
+
+   }
+  
+  body
+  {
+      background-image:url("image/2.jpeg"); 
+    background-size: 100%;
+      background-repeat: no-repeat;
+  }
+  button
+  {
+    border:0;
+    background: white;
+    display: block;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 5px 30px;
+    outline: none;
+    color: black;
+    border-radius: 15px;
+    transition: 0.25s;
+    cursor: pointer;
+  
+  }
